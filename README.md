@@ -15,20 +15,15 @@ This is the official IntelliJ IDEA plugin for [Spek](https://github.com/JetBrain
 ## Known Limitations
 - If your class is annotated with `@RunWith(...)` the junit plugin will take over and this plugin will not work.
 
-# Development
-Import the project to any IDE that supports gradle, do note that if you're using IntelliJ IDEA the imported project 
-is not marked as IDEA plugin project. You also need a local installation of Android Studio; update `localAndroidStudio`
-in `gradle.properties` to point to that installation.
-
 ## Versions
 The project uses `com.zoltu.git-versioning`, which means versions are maintained via git tags.
-
 
 ## Testing
 `./gradlew plugin:runIde`.
 
-## Testing - Android Studio
-`./gradlew plugin:runIde -Pas`.
-
 ## Building
-`./gradlew clean plugin:buildPlugin`
+`./gradlew clean plugin-base:buildPlugin`
+
+`./gradlew clean plugin-idea:buildPlugin`
+
+`./gradlew clean plugin-jvm:buildPlugin`

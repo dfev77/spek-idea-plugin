@@ -1,9 +1,9 @@
 <idea-plugin>
     <id>org.jetbrains.spek.spek-idea-plugin</id>
     <name>Spek</name>
-    <vendor email="raniejaderamiso@gmail.com" url="http://polymorphicpanda.io">Ranie Jade Ramiso</vendor>
+    <vendor email="josh.keating@hoylu.com" url="https://github.com/joshkeating/spek-idea-plugin">Josh Keating</vendor>
     <description><![CDATA[
-      Official IntelliJ IDEA plugin for <a href="http://jetbrains.github.io/spek/">Spek</a>.
+      This is the Unofficial Josh IntelliJ IDEA plugin for Spek
     ]]></description>
 
     <change-notes><![CDATA[
